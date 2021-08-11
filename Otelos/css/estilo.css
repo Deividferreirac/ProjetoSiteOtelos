@@ -1,0 +1,934 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Open+Sans');
+/* CSS Document */
+body {
+	background-image: url(../img/OIHR970.jpg);
+	background-attachment: fixed;
+    background-position: 0% 2%;
+    background-repeat: repeat;
+    background-size: 104%;
+    height: 100%;
+    right: 200px;
+    left: 200px;
+	top: 0px;
+	margin: 0;
+	max-width: 2500px;
+	font-size: 18px;
+	position: sticky;
+	z-index: -1;
+	
+}
+
+
+
+
+a, h2 {
+	font-family: 'Lobster', cursive;
+}
+
+p, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Lobster Two', cursive;
+}
+
+.site{
+	max-width: 2500px; /*largura maxima*/
+	width: 100%;
+
+}
+ 
+.site_2 {
+	width: 80%;
+	position: relative;
+	left: 145px;
+}
+
+
+
+.corpo {
+	justify-content: space-between;
+	
+}
+
+.conteudo {          
+	position: relative;
+	top: -21px;
+	align-items: baseline;
+	width: 100%;
+	z-index: -1;
+}
+
+/*######## MENU ########*/
+
+
+
+.menu {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 169px;
+    display: flex;
+	justify-content: space-around;
+	background-color: #0000009c;
+	align-items: center;
+	margin: -21px 0;
+	z-index: 1000;
+	
+}
+.menu div {
+	width: 10%;
+}
+
+.menu div img{
+	position: relative;
+	width: 111%;
+	top: 50px;
+	z-index: 9999;
+}
+
+.menu h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.menu nav {
+	width: 70%;
+}
+
+.menu nav ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	width: 100%;
+	margin: 12px auto 0;
+}
+
+.menu nav ul li{
+	list-style-type: none;
+	width: 100%;
+	padding: 3% 5% 1%;
+	font-size: 22px;
+	text-align: center;
+}
+
+.menu nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu nav ul li:hover{
+	background: #4376b9;
+	border-left: solid 1px #d5100c;
+	border-right: solid 1px #d5100c;
+}
+
+.icon {
+	display: flex;
+	margin-bottom: 10px;
+	padding: 30px;
+	
+}
+
+.iconHome {
+	background: url(../img/home.svg) no-repeat center;
+}
+
+.iconSobre {
+	background: url(../img/sobre.svg) no-repeat center;
+}
+
+.iconServico {
+	background: url(../img/servico.svg) no-repeat center;
+}
+
+.iconLocal {
+	background: url(../img/local.svg) no-repeat center;
+}
+
+.iconContato {
+	background: url(../img/contato.svg) no-repeat center;
+}
+
+
+/*TOPO FIXO */
+
+
+.menu-fixo{
+	z-index: 9999;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	transition: all 1s ease-out;
+		
+	
+}
+
+/*FIM TOPO FIXO*/
+
+
+body span img{
+
+	position: relative;
+    align-items: center;
+    width: 39%;
+    left: 35%;
+    margin: 0% 0% -37%;
+    opacity: 1;
+    z-index: 0;
+	
+}
+
+
+/*######## BANNER ########*/
+
+
+.banner {
+	width: 100%;
+	height: 1033px;
+}
+
+.banner img{ 
+	width: 100%;
+	height: 1038px;
+
+}
+
+
+
+
+/*######## SOBRE ########*/
+.sobre {
+	display: flex;
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.6474964985994398) 18%, rgba(0,0,0,0.7707457983193278) 37%, rgba(0,0,0,0.8883928571428571) 77%, rgba(0,0,0,0.7371323529411764) 86%, rgba(0,212,255,0) 100%);
+	margin-top: 3%;
+}
+
+.sobre p{
+	font-size: 1em;
+    text-align: justify;
+    padding: 9% 15%;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 2% 0 2% 0%;
+    position: relative;
+    top: 65px;
+}
+
+.sobre h2 {
+    color: #FFF;
+	margin-bottom: -53px;
+	text-align: center;
+	font-size: 2em;
+
+}
+.sobre img {
+    width: 100%;
+    /*margin-right: 210px;*/
+}
+
+.sobre section:nth-child(1) img{
+	width: 28%;
+    margin-bottom: -142.222px;
+    position: relative;
+	left: 30%;
+   
+	
+}
+
+.texto_sobre {
+	width: 49.4%;
+	margin-right: 7%;
+}
+
+
+/*######## SERVICO ########*/
+
+
+.servico{	
+	padding: 6% 19.5% 6% 19.5%;
+	text-align: center;
+}
+
+.servicoUm{
+	display: flex;
+	justify-content: space-between;
+}
+
+.servicoUm article {
+	background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.6474964985994398) 18%, rgba(0,0,0,0.9023984593837535) 37%, rgba(0,0,0,0.7847514005602241) 74%, rgba(0,0,0,0.5690651260504201) 98%, rgba(0,212,255,0) 100%);
+	width: 36%;
+	box-shadow: 0px 0px 8px 1px #333;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.servicoUm article img{
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.servico h2 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+	margin-bottom: 2%;
+}
+
+
+.servicoUm article h3{
+	color: #0874bb;
+	padding: 3% 0;
+	font-size: 1.5em;
+}
+
+.servicoUm article p{
+	padding: 3%;
+	color: #FFF;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+.servicoUm article a{
+	display: block;
+	width: 120px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 28px;
+	background: #000000;
+	text-decoration: none;
+	color: #FC0004;
+	border-radius: 5px;
+	
+}
+
+.servicoUm article a:hover{
+	background: #0000009c;
+	color: #0874bb;
+}
+
+
+
+
+/*######## INSTA ########*/
+
+.insta {
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.6474964985994398) 18%, rgba(0,0,0,0.7707457983193278) 37%, rgba(0,0,0,0.8883928571428571) 77%, rgba(0,0,0,0.7371323529411764) 86%, rgba(0,212,255,0) 100%);
+	overflow: hidden;
+}
+
+.insta section {
+	padding: 0 1%;
+	width: 20.3%; 	
+}
+
+.insta img {
+	margin: 14% auto;
+	width: 100%;
+}
+
+
+/*######## EQUIPE ########*/
+
+.Equipe {
+	margin: 6% 0 0;
+	
+}
+
+.Equipe h2 {
+	color: #fff;
+	margin-left: 47%;
+	font-size: 2em;
+}
+
+.Equipe hr {
+	width: 99%;
+    margin-left: 3px;
+	border: solid 2px #0874bb;
+}
+
+
+.equipeUm{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin: auto auto 30px auto;
+}
+
+.equipeUm h3{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.equipeUm h4{
+	color: #FFF;
+	font-size: 1em;
+	
+}
+
+.equipeUm article{
+	width: 15%;
+}
+
+.equipeUm img{
+	border-radius: 50%;
+	width: 50%;
+}
+/*######## RODAPE ########*/
+
+
+.rodape{
+	background: url(../img/barbearia.jpg);
+	background-size: 100% 180%;
+	text-align: center;
+	position: relative;
+	bottom: -20px;
+}
+
+.rodape div {
+	display: flex;
+	justify-content: center;
+}
+
+.rodape div div {
+	display: block;
+	width: 25%;
+	margin: 0 6%;
+}
+
+.rodape div div:nth-child(1){
+	width: 11%;
+}
+
+.rodape div div:nth-child(1) img{
+	
+	width: 75%;
+    margin: 5% 0 5%;
+}
+
+.rodape div div:nth-child(2){
+    width: 18%;
+}
+
+.rodape div div:nth-child(3){
+	width: 10%;;
+}
+
+.rodape div div:nth-child(3) img{
+	margin: 0 5% 5px;
+    position: relative;
+    bottom: 0;
+}
+
+.rodape a{
+	width: 50%;
+}
+
+
+
+.rodape article {
+	display: flex;
+	justify-content: center;
+	width: 38%;
+	margin: 0 auto;
+	position: relative;
+    bottom: -228px;
+}
+
+.rodape h4{
+	color: #FFF;
+    font-size: 1.1em;
+    margin: 1% auto 1% ;
+	position: relative;
+    top: 61px;
+}
+
+
+.direitos{
+	padding: 1% 0;
+	text-align: center;
+	color: #FFF;
+	background: #000000;
+	font-size: 0.8em;
+	position: relative;
+	bottom: -20px;
+}
+
+@media (max-width:1920px)
+{
+	
+	body {
+	background-image: url(../img/OIHR970.jpg);
+	background-attachment: fixed;
+    background-position: 0% 2%;
+    background-repeat: repeat;
+    background-size: 104%;
+    height: 100%;
+    right: 200px;
+    left: 200px;
+	top: 0px;
+	margin: 0;
+	max-width: 1920px;
+	font-size: 18px;
+	position: sticky;
+	z-index: -1;
+	
+	}
+
+
+
+
+	a, h2 {
+		font-family: 'Lobster', cursive;
+	}
+
+	p, h4 {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	h3 {
+		font-family: 'Lobster Two', cursive;
+	}
+
+	.site{
+		max-width: 1920px; /*largura maxima*/
+		width: 100%;
+
+	}
+	
+	.banner {
+		width: 100%;
+		height: 931px;
+	}
+
+	.banner img{ 
+		width: 100%;
+		height: 936px;
+
+	}
+	
+	.rodape div div:nth-child(2) div:nth-child(1) img {
+    	width: 67%;
+    	margin: 5% 0 1%;
+	}
+	
+	
+}
+
+@media (max-width:1280px)
+{
+
+	.rodape div div:nth-child(1) img 
+	{
+    	width: 88%;
+    	margin: 5% 0 5%;
+	}
+	
+	.rodape h4 
+	{
+    	top: 10px;
+	}
+	
+	.rodape article 
+	{
+    	width: 75%;
+		bottom: -70%;
+	}
+}
+
+@media (max-width:1024px)
+{
+	.rodape div div:nth-child(1) 
+	{
+    	width: 14%;
+	}
+	
+	.rodape div div:nth-child(1) img 
+	{
+    	width: 100%;
+    	margin: 5% 0 5%;
+	}
+	
+	.rodape div div:nth-child(2) 
+	{
+    	width: 18%;
+    	align-items: center;
+	}
+	
+	.rodape h4 
+	{
+    	top: 12px;
+	}
+	
+	.rodape div div:nth-child(3) 
+	{
+    	width: 10%;
+	}
+	
+	.rodape article 
+	{
+    	width: 93%;
+    	bottom: -76%;
+	}
+}
+
+
+@media (max-width:768px){
+	
+	.menu img{
+		display: none;
+	}
+	
+	.menu nav {
+		width: 100%;
+		align-items: center;
+	}
+	
+	.menu nav ul {
+    	width: 70%;
+	}
+	
+	.menu nav ul li {
+		padding: 3% 4% 1%;
+	}
+	
+	
+	
+	body span img {
+		left: 34%;
+		margin: 0 0 -517px;
+	}
+	
+	.banner img{
+		height: 730px;
+	}
+	
+	.sobre{
+		display: block;
+	}
+	
+	.sobre section:nth-child(1) img {
+   		margin-bottom: -8.222px;
+	}
+	
+	.texto_sobre{
+		width: 100%;
+		margin-right: 0%;
+	}
+	
+	.sobre img {
+   	 	width: 94%;	
+		position: relative;
+		left: 3%;
+	}
+	
+	.servico {
+		padding: 6% 2% 6%;
+	}
+	
+	.servicoUm article:nth-child(1) {
+    	margin-right: 2%;
+	}
+	
+	.servicoUm article {
+    	width: 63%;
+    	flex-wrap: wrap;
+	}
+	
+	.equipeUm {
+		flex-wrap: wrap;
+		margin: 30px auto 30px auto;
+		justify-content: space-evenly;
+	}
+	
+	.equipeUm article{
+		width: 25%;
+	}
+	
+	/*#### RODAPÉ ####*/
+	
+	.rodape div
+	{
+    	justify-content: center;
+	}
+	
+	.rodape div div:nth-child(1) 
+	{
+    	width: 15%;
+		margin: 0 6%;
+	}
+	
+	.rodape div div:nth-child(1) img 
+	{
+    	width: 100%;
+    	margin: 5% 0 5%;
+	}
+	
+	.rodape div div:nth-child(2) 
+	{
+    	display: none;
+	}
+	
+	.rodape div div:nth-child(3) 
+	{
+    	width: 11%;
+		margin: 0 12% 0 6%;
+	}
+	
+	.rodape article 
+	{
+    	width: 100%;
+    	bottom: -73%;
+		position: relative;
+	}
+	
+	.rodape h4 
+	{
+    	top: 10px;
+	}
+	
+	.direitos {
+    	font-size: 1.7em;
+	}
+}
+
+
+
+
+
+
+@media not all and (max-width:480px){
+	
+	.abrir-menu,
+	.fechar-menu{
+		display: none;
+	}
+	
+}
+
+
+
+
+@media (max-width: 480px) {
+	
+	
+	
+	
+	.abrir-menu{
+		background: url(../img/menu.svg) no-repeat;
+		padding: 28px;
+    	display: block;
+   	 	border: 0;
+    	margin-right: -55px;
+		margin-top: 10px;
+	}
+	
+	.fechar-menu {
+    	background: url(../img/fechar.svg);
+    	padding: 20px;
+    	display: block;
+    	border: 0;
+    	z-index: 1000000000;
+	}
+	
+	
+	.menu-ativo .menu nav{
+		right: 0px;
+	}
+	
+	.menu {
+		flex-direction: row;
+		height: 137px;
+	}
+	
+	.menu nav{
+		height: 100%;
+		background: #0000009C;
+		max-width: 217px;
+		width: 80%;
+		
+		position: fixed;
+		top: 0;
+		z-index: 9999;
+		
+		left: unset;
+		right: -100%;
+		
+		transition: right 0.5s ease-out;
+	}
+	
+	
+	.menu nav ul {
+    	position: relative;
+    	top: -30px;
+    	margin-top: 0;
+    	width: 100%;
+		height: 100%;
+    	flex-direction: column;
+    	align-items: center;
+    	z-index: -1000000000;
+	}
+	
+	
+	.menu nav ul li {
+		margin: 3% 8% 3%;
+		font-size: 22px;
+		width: 80%;
+		height: 100%;
+		padding: 0;
+	}
+	
+	
+	.menu nav ul li:hover{
+		background: none;
+		border: 0;
+	}
+	
+	.menu div {
+   		width: 37%;
+	}
+	
+	
+	
+	.menu div img{
+		display: block;
+    	position: relative;
+  		left: -41%;
+   		top: 54px;
+	}
+	
+	.icon {
+    	margin-bottom: 6px;
+    	padding: 25px;
+	}
+	
+	.conteudo {          
+		top: 0;	
+	}	
+	.banner {
+		display: none;
+	}
+	
+	body span img{
+		display: none;
+	}
+	
+	.sobre {
+		margin-top: 39%;
+	}
+	
+	.sobre h2{
+		margin-bottom: 0px;
+	}
+	
+	.sobre p{
+    padding: 0% 15% 9%;
+    top: 0px;
+}
+	
+	.servicoUm{
+		flex-wrap: wrap;
+	}
+	
+	.servicoUm article {
+		position: relative;
+		left: 17%
+	}
+	
+	.servicoUm article:nth-child(1){
+		margin-right: 0%;
+		margin-bottom: 8%;
+	}
+	
+	.insta section{
+		padding: 0 1.1%;
+	}
+	
+	.insta img {
+		width: 140%;
+	}
+	
+	
+	
+	.Equipe hr {
+		width: 98%;
+	}
+	
+	.Equipe h2 {
+		margin-left: 0px;
+		text-align: center;
+	}
+	
+	.equipeUm article {
+    	width: 50%;
+	}
+	
+	
+	.rodape article
+	{
+		width: 75%;
+	}
+	
+	.rodape h4 
+	{
+		display: none;
+	}
+	
+	.rodape div div:nth-child(1) 
+	{
+    	width: 30%;
+		margin: 0px 14%;
+	}
+	
+	.rodape div div:nth-child(1) img 
+	{
+    	width: 76%;
+    	margin: 5% 0 5%;
+	}
+	
+	.rodape div div:nth-child(2) 
+	{
+     display: none;
+	}
+	
+	.rodape div div:nth-child(3) 
+	{
+    	width: 22%;	
+	}
+	
+	.rodape div div:nth-child(3) img 
+	{
+    	margin: 0 5% 5px;
+    	position: relative;
+    	bottom: 0;
+    /* width: 77%; */
+	}
+	
+	.rodape article 
+	{
+    	width: 100%;
+    	position: relative;
+    	left: 0%; 
+		bottom: -70%;
+	}
+	
+	.rodape a {
+    	position: relative;
+    	top: 0px;
+	}
+	
+	.direitos {
+		font-size: 1em;
+	}
+	
+	
+	
+}
+
